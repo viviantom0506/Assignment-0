@@ -6,9 +6,10 @@ function sumOfAllEvenNumbers(nums) {
   for(i = 0; i < nums.length; i++) {
     if(nums[i] %2 === 0) {
       sum += i;
+      count++;
     }
   }
-  return sum;
+  return count;
 }
 
 // Do not edit this line;
