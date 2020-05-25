@@ -3,7 +3,7 @@ function sumOfNumsWithinARange(nums, start, end) {
   var num = [];
   var count = 0;
   for(var i = start; i< end; i++) {
-    if(nums[i] > start || nums[i] < end) {
+    if(nums[i] >= start || nums[i] <= end) {
       count++;
     }
     
